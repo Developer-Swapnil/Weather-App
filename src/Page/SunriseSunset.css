@@ -1,0 +1,88 @@
+.gauge{
+    width :100%;
+    max-width: 250px;
+    font-family: 'Roboto',sans-serif;
+    font-size: 32px;
+    color: white;
+    font-size: large;
+  }
+  
+  
+  
+  .gauge__body{
+    width: 100%;
+    height: 0;
+    padding-bottom: 50%;
+    background-color: rgb(48, 47, 47);
+    position: relative;
+    border-top-left-radius: 100% 200%;
+    border-top-right-radius: 100% 200%;
+    overflow: hidden;
+  
+  }
+  
+  .gauge__fill{
+    position: absolute;
+    top:100%;
+    left:0;
+    width: inherit;
+    height: 100%;
+    background-image: linear-gradient(to left,yellow,orange);
+    transform-origin: center top;
+    transform: rotate(0.25turn);
+    transition: transform 0.2s ease-out;
+  }
+  
+  .gauge__cover{
+    width: 75%;
+    height: 150%;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top:25%;
+    left: 50%;
+    transform: translateX(-50%);
+    /* text */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 25%;
+    box-sizing: border-box;
+  }
+
+  .sub-weather{
+    width: 30%;
+    height: 90%;
+    color:white;
+    border-radius: 15px;
+    background-color: black;
+}
+
+.part-3{
+    display: flex;
+    flex-direction: column;
+}
+
+.part-3-1{
+    height: 10%;
+    display: flex;
+    justify-content: flex-start;
+    margin:5px 0 5px 5px;
+    font-size: small;
+}
+.part-3-2{
+    height: 70%;
+    margin:0 5px 0 5px;
+
+}
+
+.part-3-3{
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 17px;
+}
+

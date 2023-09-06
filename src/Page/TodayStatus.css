@@ -1,0 +1,93 @@
+.today-status{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.weather{
+    /* border:2px solid salmon; */
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.wind{
+    /* border: 2px solid salmon; */
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sub-wind{
+    height: 90%;
+    width: 30%;
+    /* border: 2px solid gainsboro; */
+    border-radius: 15px;
+}
+
+.sub-wind{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+}
+
+.part-4-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin: 0 0 20px 0;
+    font-size: small;
+}
+
+.part-4-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+}
+
+.part-5-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    margin:0 0 20px 0;
+    font-size: small;
+}
+
+.part-5-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: 500;
+}
+
+.part-6-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 0 0 20px 0;
+    font-size: small;
+}
+.part-6-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: 500;
+}
