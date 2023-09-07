@@ -22,6 +22,7 @@ const CurrentWeather = () => {
       dispatch(weather("delhi"));
       dispatch(DaysForecast("delhi"));
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const GetDataHandler = (e) => {

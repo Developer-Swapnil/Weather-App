@@ -74,13 +74,13 @@ const TomTomMap = () => {
       const weatherData = await weatherResponse.json();
       console.log(weatherData);
       weatherData.list.forEach((element) => {
+        // eslint-disable-next-line react-hooks/exhaustive-deps
         const popup = new tt.Popup()
           .setDOMContent(createDOM(element))
           .setLngLat(element.coord)
           .addTo(map);
       });
     }
-
     function createDOM(city) {
       const div = document.createElement("div");
       div.style.font = "italic bold 24px arial";
@@ -102,6 +102,7 @@ const TomTomMap = () => {
     return () => {
       map.remove();
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [weatherData]);
 
   return <div style={{ width: "100%", height: "100%" }} id="map" />;
