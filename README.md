@@ -8,7 +8,7 @@ Our application leverages the robust TomTomMap features for map display and taps
 
 **Client:** React JS
 
-**Api:**OpenWeatherApi 
+Api:OpenWeatherApi 
 
 **Map:** TomTomMap
 
