@@ -1,6 +1,6 @@
 import React from "react";
 import "./FiveDays.css";
-import sunny from "../image/—Pngtree—3d sunny cloudy weather icon_8926212.png";
+// import sunny from "../image/—Pngtree—3d sunny cloudy weather icon_8926212.png";
 import { useSelector } from "react-redux/es/hooks/useSelector";
 
 const FiveDayForecast = () => {
