@@ -16,7 +16,7 @@ Our application leverages the robust TomTomMap features for map display and taps
 
 https://wooble-a479.onrender.com/
 
-![](./frontend/components/ScreenShots/Wooble-4.png)
+![](https://github.com/Developer-Swapnil/Weather-App/blob/3c4d1bdc478a508e8a47624b73115d1c6b000a51/src/image/Weather-1.png)
 
 ## Run Locally
 
