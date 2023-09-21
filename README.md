@@ -1,6 +1,5 @@
 Weather-App
 
-#weather-app
 Weather Map is your go-to source for real-time weather insights, featuring an interactive map, all powered by the versatile MERN stack.
 Discover a comprehensive set of tools including a Speedometer, UV Index Meter, vivid Sunrise, and Sunset visualizations, alongside a meticulous 5-day weather forecast.
 Our application leverages the robust TomTomMap features for map display and taps into the OpenWeather API for accurate weather details.
